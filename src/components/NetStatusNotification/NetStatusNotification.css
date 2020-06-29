@@ -1,0 +1,20 @@
+.NetStatusNotification {
+    display: none;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    padding: 8px 18px;
+    border-radius: 4px;
+}
+
+.NetStatusNotification--show {
+    display: block;
+}
+
+.NetStatusNotification--online {
+    background-color: #63af4b;
+}
+
+.NetStatusNotification--offline {
+    background-color: #b31616;
+}
